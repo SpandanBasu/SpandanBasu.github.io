@@ -1,0 +1,38 @@
+h1{
+    color: rgb(255, 59, 190);
+    text-align: center;
+}
+#container{
+    margin: 0px auto;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    border: 8px solid black;
+}
+#container div:hover{
+    background-color: rgb(80, 235, 255);
+    cursor: pointer;
+}
+#container div{
+    background-color: coral;
+    border: 6px solid black;
+    margin: 48px;
+    width: 200px;
+}
+
+@media (min-width:600px)
+{
+    body{
+        background-color: rgb(126, 255, 94);
+    }
+}
+
+@media (max-width:599px)
+{
+    body{
+        background-color: rgb(255, 245, 101);
+    }
+}
